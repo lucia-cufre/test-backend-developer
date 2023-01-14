@@ -5,7 +5,7 @@ class AppController {
     try {
       const appBusiness = new AppBusiness();
       const listProducts = await appBusiness.getProducts();
-
+      
       res.status(200).send({ notebooks: listProducts });
     } catch (error) {
       console.warn(error);
