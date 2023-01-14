@@ -1,0 +1,29 @@
+{
+  "name": "test-backend-developer",
+  "version": "1.0.0",
+  "description": "Acessar este site e pegar todos os notebooks Lenovo ordenando do mais barato para o mais caro. Pegar todos os dados disponíveis de cada produto.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucia-cufre/test-backend-developer.git"
+  },
+  "keywords": [],
+  "author": "Lucía Cufré Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucia-cufre/test-backend-developer/issues"
+  },
+  "homepage": "https://github.com/lucia-cufre/test-backend-developer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^19.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
