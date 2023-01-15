@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
+
 class AppBusiness {
-  getProducts = async (url) => {
+  getProducts = async () => {
     try {
       const browser = await puppeteer.launch();
       const page = await browser.newPage();
